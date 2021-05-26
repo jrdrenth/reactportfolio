@@ -1,4 +1,4 @@
-# Employee Directory
+# React Portfolio
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
