@@ -1,0 +1,68 @@
+/* General */
+html {
+  /* This somehow makes the footer stick to the bottom, putting it in the body selector doesn't have the same effect, I'm not sure why */
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url("assets/images/climpek.png");
+}
+
+.spacer {
+  line-height: 35px;
+}
+
+.spacer-lg {
+  line-height: 100px;
+}
+
+#name {
+  font-family: serif;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+  background: #45a8a3;
+}
+
+#lake-image {
+  float: left;
+  width: 400px;
+  margin: 0 20px 20px 0;
+}
+
+/* Main block section */
+main {
+  margin: 80px 0;
+}
+
+main .box-header {
+  color: #45a8a3;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+main .box {
+  background-color: #fff;
+
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.input {
+  position: absolute;
+  left: 15px;
+}
+
+.button {
+  padding: 15px 30px;
+  color: #fff;
+
+  background-color: #45a8a3;
+  border: 0;
+}
+
+.nature-image {
+  margin: 20px auto;
+  max-width: 500px;
+}
