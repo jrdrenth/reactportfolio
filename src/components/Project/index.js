@@ -22,6 +22,8 @@ function Project({ view, github, website, description }) {
         <a
           //to={{ pathname: {website} }} target='_blank'
           href={website}
+          target='_blank'
+          rel="noreferrer"
           className={"font-bold hover:underline cursor-pointer"}
         >
           {website}
@@ -30,6 +32,8 @@ function Project({ view, github, website, description }) {
       <td data-th={'Github'} className='align-middle'>
         <a
           href={github}
+          target='_blank'
+          rel="noreferrer"
           className={"font-bold hover:underline cursor-pointer"}
         >
           {github}
