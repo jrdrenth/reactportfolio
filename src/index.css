@@ -22,12 +22,12 @@ body {
   font-weight: bolder;
   font-size: x-large;
   color: white;
-  background: #45a8a3;
+  background: #1a63b6;
 }
 
 #lake-image {
   float: left;
-  width: 400px;
+  width: 500px;
   margin: 0 20px 20px 0;
 }
 
@@ -37,7 +37,7 @@ main {
 }
 
 main .box-header {
-  color: #45a8a3;
+  color: #0f437e;
   font-family: serif;
   font-weight: bolder;
 }
@@ -58,7 +58,7 @@ main .box {
   padding: 15px 30px;
   color: #fff;
 
-  background-color: #45a8a3;
+  background-color: #0f437e;
   border: 0;
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -10,27 +10,29 @@ function Header() {
       {/* Bootstramp "container" class has margins on the sides */}
       <div className="container">
         
-        <Link id="name" className="navbar-brand" to="/">
+        <NavLink id="name" className="navbar-brand" to="/">
           John Drenth
-        </Link>
+        </NavLink>
     
         <div className="collapse navbar-collapse" id="navbarPortfolio">
             <ul className="navbar-nav ml-auto">
     
                 {/* The links in the navbar */}
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     to="/portfolio"
-                    className={window.location.pathname === "/portfolio"
-                      ? "nav-link active"
-                      : "nav-link"
-                    }
+                    className="nav-link"
+                    activeClassName="nav-link active"
+                    // className={window.location.pathname === "/portfolio"
+                    //   ? "nav-link active"
+                    //   : "nav-link"
+                    // }
                   >
                     Portfolio
-                  </Link>
+                  </NavLink>
                 </li>
                 {/* <li className="nav-item">
-                  <Link
+                  <NavLink
                     to="/contact"
                     className={window.location.pathname === "/contact"
                       ? "nav-link active"
@@ -38,19 +40,21 @@ function Header() {
                     }
                   >
                     Contact
-                  </Link>
+                  </NavLink>
                 </li> */}
                 <li className="nav-item">
-                  <Link
+                  <NavLink
                     to="/about"
-                    className={
-                      window.location.pathname === "/" || window.location.pathname === "/about"
-                        ? "nav-link active"
-                        : "nav-link"
-                    }
+                    className="nav-link"
+                    activeClassName="nav-link active"
+                    // className={
+                    //   window.location.pathname === "/" || window.location.pathname === "/about"
+                    //     ? "nav-link active"
+                    //     : "nav-link"
+                    // }
                   >
                     About
-                  </Link>
+                  </NavLink>
                 </li>
             </ul>
         </div>

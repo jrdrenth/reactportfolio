@@ -2,13 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div class="container">
-        <section class="row">
-          <div class="col-md-9">
-            <article class="box">
-              <h1 class="box-header">About Me</h1>
+    <div className="container">
+        <section className="row">
+          <div className="col-md-9">
+            <article className="box">
+              <h1 className="box-header">About Me</h1>
               <hr />
-              <img src="../assets/images/BathtubLake.jpg" alt="John Drenth overlooking Bathtub Lake in the high sierra wilderness" id="lake-image" />
+              <img src="/assets/images/BathtubLake.jpg" alt="John Drenth overlooking Bathtub Lake in the high sierra wilderness" id="lake-image" />
               <p>
                 As a great outdoors enthusiast I enjoy activities such as waterskiing, wakeboarding, 
                 jet skiing, snowboarding, backpacking, day hiking, bike riding, or just hangin outside
